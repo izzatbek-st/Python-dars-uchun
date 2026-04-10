@@ -60,3 +60,4 @@ while True:
             print("Noto'g'ri admin paroli!")
     else:
         print("Noto'g'ri tanlov! Mavjud buyruqlardan birini tanlang.")
+        print("="*30)
