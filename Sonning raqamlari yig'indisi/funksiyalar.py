@@ -1,5 +1,8 @@
 def son_ol():
     a = input("3 xonali son kiriting: ")
+    while not a.isdigit() or len(a) != 3:
+        a = input("3 xonali son kiriting: ")
+    
     return int(a)
 
 def hisobla():
